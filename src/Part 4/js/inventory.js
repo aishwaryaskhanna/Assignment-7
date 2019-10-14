@@ -60,7 +60,7 @@ function main() {
     commandMenu();
     var inventory = [ [4824, "Shirt", 10, 15.99], [6343, "Jeans", 22, 39.99], [3223, "Socks", 36, 9.99], [2233, "Hat", 12, 14.99], [9382, "Jacket", 5, 49.99]];
     while (true) {
-        command = window.prompt("Enter command");
+        command = window.prompt("Enter command:");
         if (command !== null) {
             if (command === "View") {
                 view(inventory);

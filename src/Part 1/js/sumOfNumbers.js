@@ -8,6 +8,7 @@ function sumOfNumber(numberCount) {
     numbers.forEach(element => {
         sum += parseInt(element);
     });
+    console.log("Sum of numbers : "+sum);
     return sum;
 }
 
